@@ -1,0 +1,22 @@
+/* CSS Document */
+
+body, header, nav, main, footer, h1, div, img, ul, h4, h6{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+nav {
+    background-color:#1E53BD;
+}
+
+footer {
+    background-color: #44A9CF;
+    text-align: center;
+}
+
+#hero img {
+    width: 100%;
+    max-height: 700px;
+    display: block;
+}
