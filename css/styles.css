@@ -6,8 +6,37 @@ body, header, nav, main, footer, h1, div, img, ul, h4, h6{
     border: 0;
 }
 
-nav {
+h1 {
     background-color:#1E53BD;
+    text-align: center;
+    color:#F5B61A;
+}
+
+nav {
+    background-color:#0C437F;
+   
+}
+
+nav ul {
+    color: #F5B61A;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    color: #F5B61A;
+    display: inline;
+    
+}
+
+nav li a {
+    color: #F5B61A;
+    text-decoration: none;
+    padding: 5%;
+}
+
+nav li:hover {
+    
 }
 
 footer {
