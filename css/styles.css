@@ -1,5 +1,16 @@
 /* CSS Document */
 
+/* font-family: 'Bungee Shade', cursive;
+font-family: 'Hanalei', cursive;
+font-family: 'Hanalei Fill', cursive;
+font-family: 'Inika', serif;
+font-family: 'Koulen', cursive;
+font-family: 'Open Sans', sans-serif; */
+
+  @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Hanalei&family=Hanalei+Fill&family=Inika&family=Koulen&family=Open+Sans&display=swap');
+
+
+/* CSS RESET */
 body, header, nav, main, footer, h1, div, img, ul, h4, h6{
     padding: 0;
     margin: 0;
@@ -10,6 +21,14 @@ h1 {
     background-color:#1E53BD;
     text-align: center;
     color:#F5B61A;
+	font-family: 'Inika', serif;
+	font-size: 4em;
+}
+
+body {
+    background-image: url("../images/home_Beach.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 nav {
@@ -26,26 +45,71 @@ nav ul {
 nav li {
     color: #F5B61A;
     display: inline;
-    
+    text-align: center;
+	font-family: 'Koulen', cursive; 
 }
 
 nav li a {
     color: #F5B61A;
     text-decoration: none;
-    padding: 5%;
+    padding: 2%;
+
 }
 
-nav li:hover {
-    
+nav li a:hover {
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+.cover {
+    background-color: #329EF799;
+    border-radius: 10px; 
+    margin: 4%;
+    padding: 0 0 10% 0;
+}
+
+.cover p {
+    font-size: 2em;
+    text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.cover h3 {
+	text-align: center;
+	font-size: 3em;
+	font-family: 'Bungee Shade', cursive;
+	border: dotted thick;
+}
+
+.cover img {
+	padding: 0 0 0 25%;
+}
+
+form #submit {
+    margin: 0 auto;
+    border: none;
+    display: block;
+    padding: 2%;
+    background-color: white;
+    font-size: 1em;
+    border-radius: 10px;
+}
+
+#form h2 {
+    text-align: center;
+}
+
+#form fieldset {
+	border: none;
+	text-align: center;
+}
+
+#form legend {
+	font-size: 2em;
 }
 
 footer {
     background-color: #44A9CF;
     text-align: center;
-}
-
-#hero img {
-    width: 100%;
-    max-height: 700px;
-    display: block;
 }
